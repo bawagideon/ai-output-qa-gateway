@@ -1,0 +1,17 @@
+{
+  "name": "ai-output-qa-gateway",
+  "version": "1.0.0",
+  "description": "High-speed deterministic safety gateway for production AI models that intercepts prompt injection attacks, scrubs sensitive credentials/PII, and auto-heals corrupted JSON.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test test/ai-output-qa-gateway.test.js"
+  },
+  "keywords": [
+    "ai-safety",
+    "prompt-injection",
+    "pii-scrubber",
+    "json-autoheal"
+  ],
+  "author": "Gideon Bawa <bawagideon@gmail.com>",
+  "license": "MIT"
+}
